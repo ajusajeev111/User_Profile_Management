@@ -12,7 +12,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @NoArgsConstructor
-public class badges {
+public class Badges {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     public int badge_id;
